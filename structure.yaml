@@ -1,0 +1,33 @@
+.
+├── docker-compose.yml
+├── backend
+│   ├── .env.example
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── prisma
+│   │   └── schema.prisma
+│   └── src
+│       ├── index.ts
+│       ├── context.ts
+│       ├── schema.ts
+│       ├── resolvers.ts
+│       ├── security.ts
+│       └── types.ts
+└── frontend
+    ├── index.html
+    ├── package.json
+    ├── tsconfig.json
+    ├── vite.config.ts
+    └── src
+        ├── main.tsx
+        ├── App.tsx
+        ├── api.ts
+        ├── styles.css
+        ├── components
+        │   ├── NavBar.tsx
+        │   ├── PostCard.tsx
+        │   └── AdminGuard.tsx
+        └── pages
+            ├── Home.tsx
+            ├── PostDetail.tsx
+            └── Admin.tsx
